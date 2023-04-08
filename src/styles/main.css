@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+  .dev-border {
+    @apply border border-fuchsia-400 border-solid
+  }
+}
